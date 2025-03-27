@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "find": "ts-node-dev --respawn --transpile-only src/find.ts",
-    "create": "ts-node-dev --respawn --transpile-only src/create.ts"
+    "create": "ts-node-dev --respawn --transpile-only src/create.ts",
+    "update": "ts-node-dev --respawn --transpile-only src/update.ts",
+    "delete": "ts-node-dev --respawn --transpile-only src/delete.ts"
   },
   "devDependencies": {
     "@types/node": "^22.13.13",
