@@ -47,6 +47,8 @@ model Category {
   id           Int            @id @default(autoincrement())
   name         String
   postCategory PostCategory[] //many to many
+
+  @@map("category")
 }
 
 model PostCategory {

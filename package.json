@@ -9,7 +9,8 @@
     "create": "ts-node-dev --respawn --transpile-only src/create.ts",
     "update": "ts-node-dev --respawn --transpile-only src/update.ts",
     "delete": "ts-node-dev --respawn --transpile-only src/delete.ts",
-    "pagination": "ts-node-dev --respawn --transpile-only src/pagination-sorting.ts"
+    "pagination": "ts-node-dev --respawn --transpile-only src/pagination-sorting.ts",
+    "rela": "ts-node-dev --respawn --transpile-only src/relational-queries.ts"
   },
   "devDependencies": {
     "@types/node": "^22.13.13",
