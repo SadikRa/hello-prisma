@@ -11,7 +11,8 @@
     "delete": "ts-node-dev --respawn --transpile-only src/delete.ts",
     "pagination": "ts-node-dev --respawn --transpile-only src/pagination-sorting.ts",
     "rela": "ts-node-dev --respawn --transpile-only src/relational-queries.ts",
-    "filter": "ts-node-dev --respawn --transpile-only src/filtering.ts"
+    "filter": "ts-node-dev --respawn --transpile-only src/filtering.ts",
+    "logging": "ts-node-dev --respawn --transpile-only src/logging.ts"
   },
   "devDependencies": {
     "@types/node": "^22.13.13",
