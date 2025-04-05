@@ -14,7 +14,8 @@
     "filter": "ts-node-dev --respawn --transpile-only src/filtering.ts",
     "logging": "ts-node-dev --respawn --transpile-only src/logging.ts",
     "aggregates": "ts-node-dev --respawn --transpile-only src/aggregates.ts",
-    "groupBy": "ts-node-dev --respawn --transpile-only src/groupBy.ts"
+    "groupBy": "ts-node-dev --respawn --transpile-only src/groupBy.ts",
+    "batch": "ts-node-dev --respawn --transpile-only src/batch.ts"
   },
   "devDependencies": {
     "@types/node": "^22.13.13",
