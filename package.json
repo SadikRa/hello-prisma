@@ -13,7 +13,8 @@
     "rela": "ts-node-dev --respawn --transpile-only src/relational-queries.ts",
     "filter": "ts-node-dev --respawn --transpile-only src/filtering.ts",
     "logging": "ts-node-dev --respawn --transpile-only src/logging.ts",
-    "aggregates": "ts-node-dev --respawn --transpile-only src/aggregates.ts"
+    "aggregates": "ts-node-dev --respawn --transpile-only src/aggregates.ts",
+    "groupBy": "ts-node-dev --respawn --transpile-only src/groupBy.ts"
   },
   "devDependencies": {
     "@types/node": "^22.13.13",
