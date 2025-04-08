@@ -10,6 +10,7 @@ const deleteData = async () => {
   //   });
   //   console.log(deleteOne);
 
+  
   const deleteMany = await prisma.post.deleteMany({
     where: {
       published: false,
