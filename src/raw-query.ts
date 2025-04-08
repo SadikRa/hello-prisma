@@ -9,4 +9,5 @@ const rawQuery = async () => {
   await prisma.$queryRaw`TRUNCATE TABLE "users" CASCADE`;
 };
 
+
 rawQuery();
